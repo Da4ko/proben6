@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+:root {
+    --bkg-color: #ffffff;
+    --green-btn: #00d08e;
+    --green-bkg: #b2f1dd;
+}
+body{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-family: 'Abril Fatface', sans-serif;
+}
+
+/*header*/
+
+.header{
+    height: 70vh;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(image/computer-main.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+
+}
+.header .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding: 25px 255px 25px 255px;
+    padding-bottom: 4rem;
+    color: white;
+    font-size: large;
+}
+.header .header-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.header .header-info > h1{
+    font-size: 70px;
+    color: white
+}
+.header .header-info > p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 6rem;
+}
+.header .header-info > button{
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    font-size: x-large;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: var(--green-btn);
+    color: white;
+}
+.header .header-info > span{
+    margin-top: 4rem;
+    font-size: x-large;
+    color: white;
+}
+
+/*main*/
+
+.main .first-main-sections{
+    display: flex;
+    flex-direction: row;
+    height: 53vh;
+}
+.main .first-main-sections .first-half{
+    width: 50vw;
+    
+}
+.main .first-main-sections .second-half{
+    width: 49vw;
+    padding: 3rem;
+}
+.main .first-main-sections .second-half > h2{
+    font-size: 3rem
+}
+.main .first-main-sections .second-half > p{
+    margin-bottom: 2.5rem;
+    font-size: 1.5rem;
+}
+.main .first-main-sections .second-half .features{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.3rem;
+}
+.main .first-main-sections .second-half .features .feature > i{
+    background-color: var(--green-btn);
+    border-radius: 50%;
+    color: white;
+    font-size: x-large;
+    padding: 4px;
+    
+}
+.main .second-main-sections{
+    display: flex;
+    flex-direction: row;
+    height: 53vh;
+}
+.main .second-main-sections .third-half{
+    width: 49vw;
+    padding: 4rem;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    
+}
+.image{
+    width: 8rem;
+}
+.activities{
+    display: flex;
+    flex-direction: row;
+    gap: 80px
+}
+
+.main .second-main-sections .third-half > h2{
+    margin-top: 40px;
+    font-size: 50px;
+}
+.activities .activity > p{
+    font-size: x-large;
+    text-align: center;
+    color: var(--green-btn);
+}
+.main .second-main-sections .third-half > ul :nth-child(2){
+    margin-bottom: 1rem;
+}
+.fourth-half > img{
+    margin-top: 67px;
+    margin-left: 19px;
+    width: 960px;
+    height: 505px;
+}
+
+/*footer*/
+.footer{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-color: var(--green-bkg);
+}
+.footer > h1{
+    margin: 3rem;
+    margin-bottom: 10px;
+}
+
+.footer .faq{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.footer .faq .question{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    width: 500px;
+    font-weight: 100;
+}
+.footer .faq .question > p{
+    text-align: center;
+}
+.footer > span{
+font-size: large
+}
